@@ -12,4 +12,9 @@ public class Engine {
         this.capacity = capacity;
         this.power = power;
     }
+
+public double efficiency(){
+        return capacity/power;
+}
+
 }
