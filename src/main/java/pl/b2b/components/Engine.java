@@ -14,7 +14,7 @@ public class Engine {
     }
 
 public double efficiency(){
-        return capacity/power;
+        return 0.0;
 }
 
 }

@@ -30,7 +30,7 @@ public class Car {
 
         if (car1.equals(car2)) {
             System.out.println("identico");
-            result = true;
+
         } else {
             System.out.println(" no identico");
 
@@ -41,59 +41,13 @@ public class Car {
 
     public int getAverageCounterPerYear() {
 
-        return counter / (2018 - year);
+        return 0;
     }
 
     public String getFullCarName() {
 
-        return brand + " " + model;
+        return "";
     }
 
-    public Engine getEngine() {
-        return engine;
-    }
 
-    public void setEngine(Engine engine) {
-        this.engine = engine;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public String getBrand() {
-        return brand;
-    }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public int getCounter() {
-        return counter;
-    }
-
-    public void setCounter(int counter) {
-        this.counter = counter;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
 }

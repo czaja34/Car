@@ -7,11 +7,11 @@ import pl.b2b.components.Engine;
 import static org.junit.Assert.assertEquals;
 
 public class CarTest {
-    Car car = new Car();
-    Car carBmw;
-    Car carToyota;
-    Engine engineForBmw;
-    Engine engineForToyota;
+    private Car car = new Car();
+    private Car carBmw;
+    private Car carToyota;
+    private Engine engineForBmw;
+    private Engine engineForToyota;
 
     @Before
     public void setUp() {
